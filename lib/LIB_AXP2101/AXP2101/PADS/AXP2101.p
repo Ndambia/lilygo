@@ -1,0 +1,60 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+AXP2101 QFN40P500X500X80-41N-D I ANA 9 1 0 0 0
+TIMESTAMP 2026.08.24.15.22.17
+"Manufacturer_Name" Allwinner Technology
+"Manufacturer_Part_Number" AXP2101
+"Mouser Part Number" 
+"Mouser Price/Stock" 
+"Arrow Part Number" 
+"Arrow Price/Stock" 
+"Description" OEM/CM QUOTES ONLY | NO BROKERS
+"Datasheet Link" https://cdn-3a4dd4ab.ozdisan.com/ETicaret_Dosya/624955_173892.pdf
+"Geometry.Height" 0.8mm
+GATE 1 41 0
+AXP2101
+1 0 U CHGLED
+2 0 U VREF
+3 0 U GND_1
+4 0 U FB3
+5 0 U LX3
+6 0 U VIN3
+7 0 U VIN4
+8 0 U LX4
+9 0 U FB4
+10 0 U CPUSLDO
+11 0 U DLDO2/DC4SW
+12 0 U BLDO1
+13 0 U BLDOIN
+14 0 U BLDO2
+15 0 U ALDO4
+16 0 U ALDO3
+17 0 U ALDOIN
+18 0 U ALDO1
+19 0 U ALDO2
+20 0 U DLDO1/DC1SW
+30 0 U PWRON
+29 0 U PWROK
+28 0 U VRTC
+27 0 U VBACKUP
+26 0 U FB2
+25 0 U LX2
+24 0 U VIN2
+23 0 U VIN1
+22 0 U LX1
+21 0 U FB1
+41 0 U GND_2
+40 0 U SCK
+39 0 U SDA
+38 0 U IRQ
+37 0 U VBUS
+36 0 U VMID
+35 0 U SW
+34 0 U VSYS
+33 0 U BAT
+32 0 U GPIO1
+31 0 U TS
+
+*END*
+*REMARK* SamacSys ECAD Model
+16190726/810120/2.50/41/3/Integrated Circuit

@@ -1,0 +1,18 @@
+.AXP2101 :1 ;OEM/CM QUOTES ONLY | NO BROKERS
+QFN40P500X500X80-41N-D
+*STM IC
+*NGS
+*PLB 1="CHGLED" 2="VREF" 3="GND_1" 4="FB3" 5="LX3" 6="VIN3" 7="VIN4" 8="LX4" 9="FB4" 10="CPUSLDO" 11="DLDO2/DC4SW" 12="BLDO1" 13="BLDOIN" 14="BLDO2" 15="ALDO4" 16="ALDO3" 17="ALDOIN" 18="ALDO1" 19="ALDO2" 20="DLDO1/DC1SW" 21="FB1" 22="LX1" 23="VIN1" 24="VIN2" 25="LX2" 26="FB2" 27="VBACKUP" 28="VRTC" 29="PWROK" 30="PWRON" 31="TS" 32="GPIO1" 33="BAT" 34="VSYS" 35="SW" 36="VMID" 37="VBUS" 38="IRQ" 39="SDA" 40="SCK" 41="GND_2"
+*MXP 41
+*DFN AXP2101
+~!Manufacturer_Name (Allwinner Technology)
+~!Manufacturer_Part_Number (AXP2101)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://cdn-3a4dd4ab.ozdisan.com/ETicaret_Dosya/624955_173892.pdf)
+~!Height (0.8mm)
+~!3D_Model (AXP2101)
+AXP2101
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 
