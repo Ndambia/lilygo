@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SIM7080G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-19-09:30:07)
+    (mountForm default
+        (footprintRef "SIM7080G")
+        (spec "System")
+    )
+)

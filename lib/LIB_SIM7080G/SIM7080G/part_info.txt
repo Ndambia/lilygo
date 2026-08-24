@@ -1,0 +1,9 @@
+Manufacturer=SIMCOM
+PartNumber=SIM7080G
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=77
+Version=1.4
+Released=2020-06-19 09:30:07
+Downloaded=2026-08-24 10:40:54
+3D=Y

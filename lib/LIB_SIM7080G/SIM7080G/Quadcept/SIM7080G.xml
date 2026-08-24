@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/12374446/810120/2.50/77/4/Integrated Circuit/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="b160_60" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="oblong" width="23.622047244094" height="62.992125984251" />
+    <padshape layer="TOP_SOLDER_MASK" shape="oblong" width="31.496062992126" height="70.866141732283" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="oblong" width="23.622047244094" height="62.992125984251" />
+  </padstyle>
+  <padstyle name="r110_90" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="35.433070866141" height="43.307086614173" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="43.307086614173" height="51.181102362204" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="35.433070866141" height="43.307086614173" />
+  </padstyle>
+  <padstyle name="r310_260" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="102.36220472441" height="122.04724409449" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="110.23622047244" height="129.92125984252" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="102.36220472441" height="122.04724409449" />
+  </padstyle>
+  <footprint name="SIM7080G" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="b160_60" originx="-309.05511811023" originy="238.18897637795" rotation="90" />
+    <pcbpin number="2" name="2" style="b160_60" originx="-309.05511811023" originy="194.88188976378" rotation="90" />
+    <pcbpin number="3" name="3" style="b160_60" originx="-309.05511811023" originy="151.5748031496" rotation="90" />
+    <pcbpin number="4" name="4" style="b160_60" originx="-309.05511811023" originy="108.26771653543" rotation="90" />
+    <pcbpin number="5" name="5" style="b160_60" originx="-309.05511811023" originy="64.960629921259" rotation="90" />
+    <pcbpin number="6" name="6" style="b160_60" originx="-309.05511811023" originy="21.653543307086" rotation="90" />
+    <pcbpin number="7" name="7" style="b160_60" originx="-309.05511811023" originy="-21.653543307086" rotation="90" />
+    <pcbpin number="8" name="8" style="b160_60" originx="-309.05511811023" originy="-64.960629921259" rotation="90" />
+    <pcbpin number="9" name="9" style="b160_60" originx="-309.05511811023" originy="-108.26771653543" rotation="90" />
+    <pcbpin number="10" name="10" style="b160_60" originx="-309.05511811023" originy="-151.5748031496" rotation="90" />
+    <pcbpin number="11" name="11" style="b160_60" originx="-309.05511811023" originy="-194.88188976378" rotation="90" />
+    <pcbpin number="12" name="12" style="b160_60" originx="-309.05511811023" originy="-238.18897637795" rotation="90" />
+    <pcbpin number="13" name="13" style="b160_60" originx="-173.22834645669" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="14" name="14" style="b160_60" originx="-129.92125984252" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="15" name="15" style="b160_60" originx="-86.614173228345" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="16" name="16" style="b160_60" originx="-43.307086614173" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="17" name="17" style="b160_60" originx="0" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="18" name="18" style="b160_60" originx="43.307086614173" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="19" name="19" style="b160_60" originx="86.614173228345" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="20" name="20" style="b160_60" originx="129.92125984252" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="21" name="21" style="b160_60" originx="173.22834645669" originy="-346.45669291338" rotation="0" />
+    <pcbpin number="22" name="22" style="b160_60" originx="309.05511811023" originy="-238.18897637795" rotation="90" />
+    <pcbpin number="23" name="23" style="b160_60" originx="309.05511811023" originy="-194.88188976378" rotation="90" />
+    <pcbpin number="24" name="24" style="b160_60" originx="309.05511811023" originy="-151.5748031496" rotation="90" />
+    <pcbpin number="25" name="25" style="b160_60" originx="309.05511811023" originy="-108.26771653543" rotation="90" />
+    <pcbpin number="26" name="26" style="b160_60" originx="309.05511811023" originy="-64.960629921259" rotation="90" />
+    <pcbpin number="27" name="27" style="b160_60" originx="309.05511811023" originy="-21.653543307086" rotation="90" />
+    <pcbpin number="28" name="28" style="b160_60" originx="309.05511811023" originy="21.653543307086" rotation="90" />
+    <pcbpin number="29" name="29" style="b160_60" originx="309.05511811023" originy="64.960629921259" rotation="90" />
+    <pcbpin number="30" name="30" style="b160_60" originx="309.05511811023" originy="108.26771653543" rotation="90" />
+    <pcbpin number="31" name="31" style="b160_60" originx="309.05511811023" originy="151.5748031496" rotation="90" />
+    <pcbpin number="32" name="32" style="b160_60" originx="309.05511811023" originy="194.88188976378" rotation="90" />
+    <pcbpin number="33" name="33" style="b160_60" originx="309.05511811023" originy="238.18897637795" rotation="90" />
+    <pcbpin number="34" name="34" style="b160_60" originx="173.22834645669" originy="346.45669291338" rotation="0" />
+    <pcbpin number="35" name="35" style="b160_60" originx="129.92125984252" originy="346.45669291338" rotation="0" />
+    <pcbpin number="36" name="36" style="b160_60" originx="86.614173228345" originy="346.45669291338" rotation="0" />
+    <pcbpin number="37" name="37" style="b160_60" originx="43.307086614173" originy="346.45669291338" rotation="0" />
+    <pcbpin number="38" name="38" style="b160_60" originx="0" originy="346.45669291338" rotation="0" />
+    <pcbpin number="39" name="39" style="b160_60" originx="-43.307086614173" originy="346.45669291338" rotation="0" />
+    <pcbpin number="40" name="40" style="b160_60" originx="-86.614173228345" originy="346.45669291338" rotation="0" />
+    <pcbpin number="41" name="41" style="b160_60" originx="-129.92125984252" originy="346.45669291338" rotation="0" />
+    <pcbpin number="42" name="42" style="b160_60" originx="-173.22834645669" originy="346.45669291338" rotation="0" />
+    <pcbpin number="43" name="43" style="r110_90" originx="-210.62992125984" originy="192.91338582677" rotation="90" />
+    <pcbpin number="44" name="44" style="r110_90" originx="-210.62992125984" originy="137.79527559055" rotation="90" />
+    <pcbpin number="45" name="45" style="r110_90" originx="-210.62992125984" originy="82.67716535433" rotation="90" />
+    <pcbpin number="46" name="46" style="r110_90" originx="-210.62992125984" originy="27.55905511811" rotation="90" />
+    <pcbpin number="47" name="47" style="r110_90" originx="-210.62992125984" originy="-27.55905511811" rotation="90" />
+    <pcbpin number="48" name="48" style="r110_90" originx="-210.62992125984" originy="-82.67716535433" rotation="90" />
+    <pcbpin number="49" name="49" style="r110_90" originx="-210.62992125984" originy="-137.79527559055" rotation="90" />
+    <pcbpin number="50" name="50" style="r110_90" originx="-210.62992125984" originy="-192.91338582677" rotation="90" />
+    <pcbpin number="51" name="51" style="r110_90" originx="-165.35433070866" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="52" name="52" style="r110_90" originx="-110.23622047244" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="53" name="53" style="r110_90" originx="-55.11811023622" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="54" name="54" style="r110_90" originx="0" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="55" name="55" style="r110_90" originx="55.11811023622" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="56" name="56" style="r110_90" originx="110.23622047244" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="57" name="57" style="r110_90" originx="165.35433070866" originy="-248.03149606299" rotation="0" />
+    <pcbpin number="58" name="58" style="r110_90" originx="210.62992125984" originy="-192.91338582677" rotation="90" />
+    <pcbpin number="59" name="59" style="r110_90" originx="210.62992125984" originy="-137.79527559055" rotation="90" />
+    <pcbpin number="60" name="60" style="r110_90" originx="210.62992125984" originy="-82.67716535433" rotation="90" />
+    <pcbpin number="61" name="61" style="r110_90" originx="210.62992125984" originy="-27.55905511811" rotation="90" />
+    <pcbpin number="62" name="62" style="r110_90" originx="210.62992125984" originy="27.55905511811" rotation="90" />
+    <pcbpin number="63" name="63" style="r110_90" originx="110.23622047244" originy="248.03149606299" rotation="0" />
+    <pcbpin number="64" name="64" style="r110_90" originx="55.11811023622" originy="248.03149606299" rotation="0" />
+    <pcbpin number="65" name="65" style="r110_90" originx="0" originy="248.03149606299" rotation="0" />
+    <pcbpin number="66" name="66" style="r110_90" originx="-55.11811023622" originy="248.03149606299" rotation="0" />
+    <pcbpin number="67" name="67" style="r110_90" originx="-110.23622047244" originy="248.03149606299" rotation="0" />
+    <pcbpin number="68" name="68" style="r110_90" originx="-165.35433070866" originy="248.03149606299" rotation="0" />
+    <pcbpin number="69" name="69" style="r310_260" originx="-114.17322834646" originy="133.85826771653" rotation="0" />
+    <pcbpin number="70" name="70" style="r310_260" originx="-114.17322834646" originy="0" rotation="0" />
+    <pcbpin number="71" name="71" style="r310_260" originx="-114.17322834646" originy="-133.85826771653" rotation="0" />
+    <pcbpin number="72" name="72" style="r310_260" originx="0" originy="-133.85826771653" rotation="0" />
+    <pcbpin number="73" name="73" style="r310_260" originx="114.17322834646" originy="-133.85826771653" rotation="0" />
+    <pcbpin number="74" name="74" style="r310_260" originx="114.17322834646" originy="0" rotation="0" />
+    <pcbpin number="75" name="75" style="r310_260" originx="114.17322834646" originy="133.85826771653" rotation="0" />
+    <pcbpin number="76" name="76" style="r310_260" originx="0" originy="133.85826771653" rotation="0" />
+    <pcbpin number="77" name="77" style="r310_260" originx="0" originy="0" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-309.05511811023" originy="-346.45669291338" endx="309.05511811023" endy="-346.45669291338" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="309.05511811023" originy="-346.45669291338" endx="309.05511811023" endy="346.45669291338" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="309.05511811023" originy="346.45669291338" endx="-309.05511811023" endy="346.45669291338" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-309.05511811023" originy="346.45669291338" endx="-309.05511811023" endy="-346.45669291338" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-206.69291338582" originy="346.45669291338" endx="-309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="346.45669291338" endx="-309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="346.45669291338" endx="-206.69291338582" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-206.69291338582" originy="346.45669291338" endx="-206.69291338582" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="206.69291338582" originy="346.45669291338" endx="309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="346.45669291338" endx="309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="346.45669291338" endx="206.69291338582" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="206.69291338582" originy="346.45669291338" endx="206.69291338582" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="-346.45669291338" endx="210.62992125984" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="210.62992125984" originy="-346.45669291338" endx="210.62992125984" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="210.62992125984" originy="-346.45669291338" endx="309.05511811023" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="-346.45669291338" endx="309.05511811023" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="-346.45669291338" endx="-206.69291338582" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-206.69291338582" originy="-346.45669291338" endx="-206.69291338582" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-206.69291338582" originy="-346.45669291338" endx="-309.05511811023" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="-346.45669291338" endx="-309.05511811023" endy="-346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-413.38582677165" originy="417.32283464566" endx="379.92125984252" endy="417.32283464566" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="379.92125984252" originy="417.32283464566" endx="379.92125984252" endy="-417.32283464566" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="379.92125984252" originy="-417.32283464566" endx="-413.38582677165" endy="-417.32283464566" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-413.38582677165" originy="-417.32283464566" endx="-413.38582677165" endy="417.32283464566" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="346.45669291338" endx="-309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="346.45669291338" endx="-309.05511811023" endy="275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="275.5905511811" endx="-309.05511811023" endy="275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="275.5905511811" endx="-309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="346.45669291338" endx="309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="346.45669291338" endx="309.05511811023" endy="275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="275.5905511811" endx="309.05511811023" endy="275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="275.5905511811" endx="309.05511811023" endy="346.45669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="-275.5905511811" endx="309.05511811023" endy="-275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="-275.5905511811" endx="309.05511811023" endy="-344.48818897637" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="-344.48818897637" endx="309.05511811023" endy="-344.48818897637" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="309.05511811023" originy="-344.48818897637" endx="309.05511811023" endy="-275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="-275.5905511811" endx="-309.05511811023" endy="-275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="-275.5905511811" endx="-309.05511811023" endy="-344.48818897637" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="-344.48818897637" endx="-309.05511811023" endy="-344.48818897637" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-309.05511811023" originy="-344.48818897637" endx="-309.05511811023" endy="-275.5905511811" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-370.07874015748" originy="238.18897637795" endx="-370.07874015748" endy="238.18897637795" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-372.04724409448" originy="238.18897637795" startangle=".0" sweepangle="180.0" radius="1.9685039370078" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-374.01574803149" originy="238.18897637795" endx="-374.01574803149" endy="238.18897637795" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-372.04724409448" originy="238.18897637795" startangle="180.0" sweepangle="180.0" radius="1.9685039370078" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-370.07874015748" originy="238.18897637795" endx="-370.07874015748" endy="238.18897637795" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-372.04724409448" originy="238.18897637795" startangle=".0" sweepangle="180.0" radius="1.9685039370078" width="7.8740157480314" />
+  </footprint>
+  <symbol name="SIM7080G" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1600" endy="100" width="0" />
+    <line originx="1600" originy="-3900" endx="1600" endy="100" width="0" />
+    <line originx="1600" originy="-3900" endx="200" endy="-3900" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-3900" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_TXD" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_RXD" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_RTS" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="-300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_CTS" />
+      <text name="pindes" originx="140" originy="-280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="200" originy="-400" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-400" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_DCD" />
+      <text name="pindes" originx="140" originy="-380" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="5" />
+    </sympin>
+    <sympin number="6" originx="200" originy="-500" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-500" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_DTR" />
+      <text name="pindes" originx="140" originy="-480" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="6" />
+    </sympin>
+    <sympin number="7" originx="200" originy="-600" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-600" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART1_RI" />
+      <text name="pindes" originx="140" originy="-580" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="7" />
+    </sympin>
+    <sympin number="8" originx="200" originy="-700" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-700" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_1" />
+      <text name="pindes" originx="140" originy="-680" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="8" />
+    </sympin>
+    <sympin number="9" originx="200" originy="-800" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-800" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PCM_DIN" />
+      <text name="pindes" originx="140" originy="-780" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="9" />
+    </sympin>
+    <sympin number="10" originx="200" originy="-900" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-900" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PCM_DOUT" />
+      <text name="pindes" originx="140" originy="-880" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="10" />
+    </sympin>
+    <sympin number="11" originx="200" originy="-1000" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1000" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PCM_CLK" />
+      <text name="pindes" originx="140" originy="-980" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="11" />
+    </sympin>
+    <sympin number="12" originx="200" originy="-1100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PCM_SYNC" />
+      <text name="pindes" originx="140" originy="-1080" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="12" />
+    </sympin>
+    <sympin number="13" originx="200" originy="-1200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_2" />
+      <text name="pindes" originx="140" originy="-1180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="13" />
+    </sympin>
+    <sympin number="14" originx="200" originy="-1300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GPIO5" />
+      <text name="pindes" originx="140" originy="-1280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="14" />
+    </sympin>
+    <sympin number="15" originx="200" originy="-1400" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1400" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SIM_DATA" />
+      <text name="pindes" originx="140" originy="-1380" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="15" />
+    </sympin>
+    <sympin number="16" originx="200" originy="-1500" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1500" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SIM_CLK" />
+      <text name="pindes" originx="140" originy="-1480" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="16" />
+    </sympin>
+    <sympin number="17" originx="200" originy="-1600" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1600" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SIM_RST" />
+      <text name="pindes" originx="140" originy="-1580" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="17" />
+    </sympin>
+    <sympin number="18" originx="200" originy="-1700" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1700" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SIM_VDD" />
+      <text name="pindes" originx="140" originy="-1680" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="18" />
+    </sympin>
+    <sympin number="19" originx="200" originy="-1800" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1800" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_3" />
+      <text name="pindes" originx="140" originy="-1780" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="19" />
+    </sympin>
+    <sympin number="20" originx="200" originy="-1900" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-1900" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="\USB_BOOT" />
+      <text name="pindes" originx="140" originy="-1880" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="20" />
+    </sympin>
+    <sympin number="21" originx="200" originy="-2000" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2000" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_4" />
+      <text name="pindes" originx="140" originy="-1980" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="21" />
+    </sympin>
+    <sympin number="22" originx="200" originy="-2100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART2_TXD" />
+      <text name="pindes" originx="140" originy="-2080" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="22" />
+    </sympin>
+    <sympin number="23" originx="200" originy="-2200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UART2_RXD" />
+      <text name="pindes" originx="140" originy="-2180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="23" />
+    </sympin>
+    <sympin number="24" originx="200" originy="-2300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="USB_VBUS" />
+      <text name="pindes" originx="140" originy="-2280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="24" />
+    </sympin>
+    <sympin number="25" originx="200" originy="-2400" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2400" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="USB_DP" />
+      <text name="pindes" originx="140" originy="-2380" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="25" />
+    </sympin>
+    <sympin number="26" originx="200" originy="-2500" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2500" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="USB_DM" />
+      <text name="pindes" originx="140" originy="-2480" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="26" />
+    </sympin>
+    <sympin number="27" originx="200" originy="-2600" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2600" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_5" />
+      <text name="pindes" originx="140" originy="-2580" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="27" />
+    </sympin>
+    <sympin number="28" originx="200" originy="-2700" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2700" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="NC_1" />
+      <text name="pindes" originx="140" originy="-2680" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="28" />
+    </sympin>
+    <sympin number="29" originx="200" originy="-2800" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2800" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="NC_2" />
+      <text name="pindes" originx="140" originy="-2780" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="29" />
+    </sympin>
+    <sympin number="30" originx="200" originy="-2900" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-2900" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_6" />
+      <text name="pindes" originx="140" originy="-2880" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="30" />
+    </sympin>
+    <sympin number="31" originx="200" originy="-3000" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3000" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_7" />
+      <text name="pindes" originx="140" originy="-2980" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="31" />
+    </sympin>
+    <sympin number="32" originx="200" originy="-3100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="RF_ANT" />
+      <text name="pindes" originx="140" originy="-3080" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="32" />
+    </sympin>
+    <sympin number="33" originx="200" originy="-3200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_8" />
+      <text name="pindes" originx="140" originy="-3180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="33" />
+    </sympin>
+    <sympin number="34" originx="200" originy="-3300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VBAT_1" />
+      <text name="pindes" originx="140" originy="-3280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="34" />
+    </sympin>
+    <sympin number="35" originx="200" originy="-3400" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3400" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VBAT_2" />
+      <text name="pindes" originx="140" originy="-3380" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="35" />
+    </sympin>
+    <sympin number="36" originx="200" originy="-3500" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3500" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_9" />
+      <text name="pindes" originx="140" originy="-3480" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="36" />
+    </sympin>
+    <sympin number="37" originx="200" originy="-3600" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3600" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_10" />
+      <text name="pindes" originx="140" originy="-3580" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="37" />
+    </sympin>
+    <sympin number="38" originx="200" originy="-3700" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3700" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="ADC" />
+      <text name="pindes" originx="140" originy="-3680" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="38" />
+    </sympin>
+    <sympin number="39" originx="200" originy="-3800" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-3800" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="PWRKEY" />
+      <text name="pindes" originx="140" originy="-3780" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="39" />
+    </sympin>
+    <sympin number="40" originx="1600" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="VDD_EXT" />
+      <text name="pindes" originx="1660" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="40" />
+    </sympin>
+    <sympin number="41" originx="1600" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NETLIGHT" />
+      <text name="pindes" originx="1660" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="41" />
+    </sympin>
+    <sympin number="42" originx="1600" originy="-200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="STATUS" />
+      <text name="pindes" originx="1660" originy="-180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="42" />
+    </sympin>
+    <sympin number="43" originx="1600" originy="-300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="ANT_CONTROL1" />
+      <text name="pindes" originx="1660" originy="-280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="43" />
+    </sympin>
+    <sympin number="44" originx="1600" originy="-400" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-400" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="ANT_CONTROL0" />
+      <text name="pindes" originx="1660" originy="-380" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="44" />
+    </sympin>
+    <sympin number="45" originx="1600" originy="-500" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-500" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_11" />
+      <text name="pindes" originx="1660" originy="-480" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="45" />
+    </sympin>
+    <sympin number="46" originx="1600" originy="-600" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-600" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_3" />
+      <text name="pindes" originx="1660" originy="-580" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="46" />
+    </sympin>
+    <sympin number="47" originx="1600" originy="-700" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-700" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_4" />
+      <text name="pindes" originx="1660" originy="-680" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="47" />
+    </sympin>
+    <sympin number="48" originx="1600" originy="-800" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-800" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="SPI_CS" />
+      <text name="pindes" originx="1660" originy="-780" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="48" />
+    </sympin>
+    <sympin number="49" originx="1600" originy="-900" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-900" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="\SPI_MOSI" />
+      <text name="pindes" originx="1660" originy="-880" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="49" />
+    </sympin>
+    <sympin number="50" originx="1600" originy="-1000" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1000" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="SPI_CLK" />
+      <text name="pindes" originx="1660" originy="-980" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="50" />
+    </sympin>
+    <sympin number="51" originx="1600" originy="-1100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="SPI_MISO" />
+      <text name="pindes" originx="1660" originy="-1080" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="51" />
+    </sympin>
+    <sympin number="52" originx="1600" originy="-1200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_5" />
+      <text name="pindes" originx="1660" originy="-1180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="52" />
+    </sympin>
+    <sympin number="53" originx="1600" originy="-1300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_6" />
+      <text name="pindes" originx="1660" originy="-1280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="53" />
+    </sympin>
+    <sympin number="54" originx="1600" originy="-1400" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1400" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_7" />
+      <text name="pindes" originx="1660" originy="-1380" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="54" />
+    </sympin>
+    <sympin number="55" originx="1600" originy="-1500" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1500" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_8" />
+      <text name="pindes" originx="1660" originy="-1480" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="55" />
+    </sympin>
+    <sympin number="56" originx="1600" originy="-1600" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1600" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="NC_9" />
+      <text name="pindes" originx="1660" originy="-1580" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="56" />
+    </sympin>
+    <sympin number="57" originx="1600" originy="-1700" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1700" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GPIO1" />
+      <text name="pindes" originx="1660" originy="-1680" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="57" />
+    </sympin>
+    <sympin number="58" originx="1600" originy="-1800" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1800" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GPIO2" />
+      <text name="pindes" originx="1660" originy="-1780" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="58" />
+    </sympin>
+    <sympin number="59" originx="1600" originy="-1900" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-1900" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GPIO3" />
+      <text name="pindes" originx="1660" originy="-1880" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="59" />
+    </sympin>
+    <sympin number="60" originx="1600" originy="-2000" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2000" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GPIO4" />
+      <text name="pindes" originx="1660" originy="-1980" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="60" />
+    </sympin>
+    <sympin number="61" originx="1600" originy="-2100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="UART3_TXD" />
+      <text name="pindes" originx="1660" originy="-2080" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="61" />
+    </sympin>
+    <sympin number="62" originx="1600" originy="-2200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="UART3_RXD" />
+      <text name="pindes" originx="1660" originy="-2180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="62" />
+    </sympin>
+    <sympin number="63" originx="1600" originy="-2300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_12" />
+      <text name="pindes" originx="1660" originy="-2280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="63" />
+    </sympin>
+    <sympin number="64" originx="1600" originy="-2400" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2400" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="I2C_SDA" />
+      <text name="pindes" originx="1660" originy="-2380" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="64" />
+    </sympin>
+    <sympin number="65" originx="1600" originy="-2500" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2500" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="I2C_SCL" />
+      <text name="pindes" originx="1660" originy="-2480" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="65" />
+    </sympin>
+    <sympin number="66" originx="1600" originy="-2600" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2600" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_13" />
+      <text name="pindes" originx="1660" originy="-2580" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="66" />
+    </sympin>
+    <sympin number="67" originx="1600" originy="-2700" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2700" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_14" />
+      <text name="pindes" originx="1660" originy="-2680" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="67" />
+    </sympin>
+    <sympin number="68" originx="1600" originy="-2800" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2800" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GNSS_ANT" />
+      <text name="pindes" originx="1660" originy="-2780" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="68" />
+    </sympin>
+    <sympin number="69" originx="1600" originy="-2900" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-2900" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_15" />
+      <text name="pindes" originx="1660" originy="-2880" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="69" />
+    </sympin>
+    <sympin number="70" originx="1600" originy="-3000" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3000" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_16" />
+      <text name="pindes" originx="1660" originy="-2980" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="70" />
+    </sympin>
+    <sympin number="71" originx="1600" originy="-3100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_17" />
+      <text name="pindes" originx="1660" originy="-3080" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="71" />
+    </sympin>
+    <sympin number="72" originx="1600" originy="-3200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_18" />
+      <text name="pindes" originx="1660" originy="-3180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="72" />
+    </sympin>
+    <sympin number="73" originx="1600" originy="-3300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_19" />
+      <text name="pindes" originx="1660" originy="-3280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="73" />
+    </sympin>
+    <sympin number="74" originx="1600" originy="-3400" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3400" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_20" />
+      <text name="pindes" originx="1660" originy="-3380" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="74" />
+    </sympin>
+    <sympin number="75" originx="1600" originy="-3500" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3500" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_21" />
+      <text name="pindes" originx="1660" originy="-3480" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="75" />
+    </sympin>
+    <sympin number="76" originx="1600" originy="-3600" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3600" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_22" />
+      <text name="pindes" originx="1660" originy="-3580" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="76" />
+    </sympin>
+    <sympin number="77" originx="1600" originy="-3700" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1570" originy="-3700" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_23" />
+      <text name="pindes" originx="1660" originy="-3680" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="77" />
+    </sympin>
+  </symbol>
+  <component name="SIM7080G" designatorprefix="IC" height="102.36220472441" footprint="SIM7080G">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_TXD" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_RXD" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_RTS" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_CTS" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_DCD" />
+    <comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_DTR" />
+    <comppin designator="7" sympin="7" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART1_RI" />
+    <comppin designator="8" sympin="8" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_1" />
+    <comppin designator="9" sympin="9" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="PCM_DIN" />
+    <comppin designator="10" sympin="10" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="PCM_DOUT" />
+    <comppin designator="11" sympin="11" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="PCM_CLK" />
+    <comppin designator="12" sympin="12" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="PCM_SYNC" />
+    <comppin designator="13" sympin="13" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_2" />
+    <comppin designator="14" sympin="14" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GPIO5" />
+    <comppin designator="15" sympin="15" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SIM_DATA" />
+    <comppin designator="16" sympin="16" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SIM_CLK" />
+    <comppin designator="17" sympin="17" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SIM_RST" />
+    <comppin designator="18" sympin="18" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SIM_VDD" />
+    <comppin designator="19" sympin="19" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_3" />
+    <comppin designator="20" sympin="20" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="|USB_BOOT" />
+    <comppin designator="21" sympin="21" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_4" />
+    <comppin designator="22" sympin="22" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART2_TXD" />
+    <comppin designator="23" sympin="23" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART2_RXD" />
+    <comppin designator="24" sympin="24" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="USB_VBUS" />
+    <comppin designator="25" sympin="25" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="USB_DP" />
+    <comppin designator="26" sympin="26" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="USB_DM" />
+    <comppin designator="27" sympin="27" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_5" />
+    <comppin designator="28" sympin="28" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_1" />
+    <comppin designator="29" sympin="29" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_2" />
+    <comppin designator="30" sympin="30" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_6" />
+    <comppin designator="31" sympin="31" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_7" />
+    <comppin designator="32" sympin="32" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="RF_ANT" />
+    <comppin designator="33" sympin="33" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_8" />
+    <comppin designator="34" sympin="34" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VBAT_1" />
+    <comppin designator="35" sympin="35" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VBAT_2" />
+    <comppin designator="36" sympin="36" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_9" />
+    <comppin designator="37" sympin="37" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_10" />
+    <comppin designator="38" sympin="38" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="ADC" />
+    <comppin designator="39" sympin="39" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="PWRKEY" />
+    <comppin designator="40" sympin="40" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VDD_EXT" />
+    <comppin designator="41" sympin="41" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NETLIGHT" />
+    <comppin designator="42" sympin="42" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="STATUS" />
+    <comppin designator="43" sympin="43" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="ANT_CONTROL1" />
+    <comppin designator="44" sympin="44" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="ANT_CONTROL0" />
+    <comppin designator="45" sympin="45" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_11" />
+    <comppin designator="46" sympin="46" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_3" />
+    <comppin designator="47" sympin="47" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_4" />
+    <comppin designator="48" sympin="48" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SPI_CS" />
+    <comppin designator="49" sympin="49" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="|SPI_MOSI" />
+    <comppin designator="50" sympin="50" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SPI_CLK" />
+    <comppin designator="51" sympin="51" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SPI_MISO" />
+    <comppin designator="52" sympin="52" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_5" />
+    <comppin designator="53" sympin="53" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_6" />
+    <comppin designator="54" sympin="54" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_7" />
+    <comppin designator="55" sympin="55" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_8" />
+    <comppin designator="56" sympin="56" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="NC_9" />
+    <comppin designator="57" sympin="57" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GPIO1" />
+    <comppin designator="58" sympin="58" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GPIO2" />
+    <comppin designator="59" sympin="59" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GPIO3" />
+    <comppin designator="60" sympin="60" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GPIO4" />
+    <comppin designator="61" sympin="61" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART3_TXD" />
+    <comppin designator="62" sympin="62" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="UART3_RXD" />
+    <comppin designator="63" sympin="63" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_12" />
+    <comppin designator="64" sympin="64" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="I2C_SDA" />
+    <comppin designator="65" sympin="65" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="I2C_SCL" />
+    <comppin designator="66" sympin="66" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_13" />
+    <comppin designator="67" sympin="67" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_14" />
+    <comppin designator="68" sympin="68" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GNSS_ANT" />
+    <comppin designator="69" sympin="69" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_15" />
+    <comppin designator="70" sympin="70" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_16" />
+    <comppin designator="71" sympin="71" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_17" />
+    <comppin designator="72" sympin="72" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_18" />
+    <comppin designator="73" sympin="73" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_19" />
+    <comppin designator="74" sympin="74" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_20" />
+    <comppin designator="75" sympin="75" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_21" />
+    <comppin designator="76" sympin="76" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_22" />
+    <comppin designator="77" sympin="77" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_23" />
+    <attached_symbol gate="1" name="SIM7080G" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <pinmap designator="6" footprintpin="6" />
+    <pinmap designator="7" footprintpin="7" />
+    <pinmap designator="8" footprintpin="8" />
+    <pinmap designator="9" footprintpin="9" />
+    <pinmap designator="10" footprintpin="10" />
+    <pinmap designator="11" footprintpin="11" />
+    <pinmap designator="12" footprintpin="12" />
+    <pinmap designator="13" footprintpin="13" />
+    <pinmap designator="14" footprintpin="14" />
+    <pinmap designator="15" footprintpin="15" />
+    <pinmap designator="16" footprintpin="16" />
+    <pinmap designator="17" footprintpin="17" />
+    <pinmap designator="18" footprintpin="18" />
+    <pinmap designator="19" footprintpin="19" />
+    <pinmap designator="20" footprintpin="20" />
+    <pinmap designator="21" footprintpin="21" />
+    <pinmap designator="22" footprintpin="22" />
+    <pinmap designator="23" footprintpin="23" />
+    <pinmap designator="24" footprintpin="24" />
+    <pinmap designator="25" footprintpin="25" />
+    <pinmap designator="26" footprintpin="26" />
+    <pinmap designator="27" footprintpin="27" />
+    <pinmap designator="28" footprintpin="28" />
+    <pinmap designator="29" footprintpin="29" />
+    <pinmap designator="30" footprintpin="30" />
+    <pinmap designator="31" footprintpin="31" />
+    <pinmap designator="32" footprintpin="32" />
+    <pinmap designator="33" footprintpin="33" />
+    <pinmap designator="34" footprintpin="34" />
+    <pinmap designator="35" footprintpin="35" />
+    <pinmap designator="36" footprintpin="36" />
+    <pinmap designator="37" footprintpin="37" />
+    <pinmap designator="38" footprintpin="38" />
+    <pinmap designator="39" footprintpin="39" />
+    <pinmap designator="40" footprintpin="40" />
+    <pinmap designator="41" footprintpin="41" />
+    <pinmap designator="42" footprintpin="42" />
+    <pinmap designator="43" footprintpin="43" />
+    <pinmap designator="44" footprintpin="44" />
+    <pinmap designator="45" footprintpin="45" />
+    <pinmap designator="46" footprintpin="46" />
+    <pinmap designator="47" footprintpin="47" />
+    <pinmap designator="48" footprintpin="48" />
+    <pinmap designator="49" footprintpin="49" />
+    <pinmap designator="50" footprintpin="50" />
+    <pinmap designator="51" footprintpin="51" />
+    <pinmap designator="52" footprintpin="52" />
+    <pinmap designator="53" footprintpin="53" />
+    <pinmap designator="54" footprintpin="54" />
+    <pinmap designator="55" footprintpin="55" />
+    <pinmap designator="56" footprintpin="56" />
+    <pinmap designator="57" footprintpin="57" />
+    <pinmap designator="58" footprintpin="58" />
+    <pinmap designator="59" footprintpin="59" />
+    <pinmap designator="60" footprintpin="60" />
+    <pinmap designator="61" footprintpin="61" />
+    <pinmap designator="62" footprintpin="62" />
+    <pinmap designator="63" footprintpin="63" />
+    <pinmap designator="64" footprintpin="64" />
+    <pinmap designator="65" footprintpin="65" />
+    <pinmap designator="66" footprintpin="66" />
+    <pinmap designator="67" footprintpin="67" />
+    <pinmap designator="68" footprintpin="68" />
+    <pinmap designator="69" footprintpin="69" />
+    <pinmap designator="70" footprintpin="70" />
+    <pinmap designator="71" footprintpin="71" />
+    <pinmap designator="72" footprintpin="72" />
+    <pinmap designator="73" footprintpin="73" />
+    <pinmap designator="74" footprintpin="74" />
+    <pinmap designator="75" footprintpin="75" />
+    <pinmap designator="76" footprintpin="76" />
+    <pinmap designator="77" footprintpin="77" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.waveshare.com/w/upload/e/e7/SIM7080G_Hardware_Design_V1.03.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="SIM7080G is Multi-Band CAT-M and NB-IoT module solution in a SMT type ." />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="SIMCOM" />
+    <text name="Manufacturer_Part_Number" originx="1650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SIM7080G" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+  </component>
+</quadcept_library>

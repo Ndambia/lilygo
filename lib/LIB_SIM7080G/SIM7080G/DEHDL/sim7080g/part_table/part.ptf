@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SIM7080G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SIMCOM", "SIM7080G" (!) = "", "SIM7080G", "Other", "", "", "", "", "SIM7080G is Multi-Band CAT-M and NB-IoT module solution in a SMT type .", "https://www.waveshare.com/w/upload/e/e7/SIM7080G_Hardware_Design_V1.03.pdf", "2.6 mm"
+END_PART
+
+END.
