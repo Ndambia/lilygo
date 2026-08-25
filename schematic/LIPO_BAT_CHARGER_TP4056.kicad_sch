@@ -904,263 +904,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_NTC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_NTC"
-				(at 3.175 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_NTC_0_1"
-				(arc
-					(start -3.175 2.413)
-					(mid -3.0506 2.3165)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.159 2.794)
-					(mid -2.434 2.5608)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_NTC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCD_Integrated_IC:TP4056"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1780,12 +1523,6 @@
 		(uuid "960822cf-0ca0-4409-a057-e65a6e40b2ae")
 	)
 	(junction
-		(at 204.47 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac312046-c007-4cad-8ae0-24aa48c0b183")
-	)
-	(junction
 		(at 74.93 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1826,12 +1563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0306326-39eb-4b5b-ae31-2aaae69ae0ed")
-	)
-	(junction
-		(at 204.47 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d50fbab3-3da5-4bfb-aff8-999b2f8b53fb")
 	)
 	(junction
 		(at 95.25 55.88)
@@ -2054,16 +1785,6 @@
 			(type default)
 		)
 		(uuid "4bc00421-be17-4c73-8172-31c96058a024")
-	)
-	(wire
-		(pts
-			(xy 204.47 109.22) (xy 204.47 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc8ad4d-4354-42c6-bc6d-199687a85e68")
 	)
 	(wire
 		(pts
@@ -2304,16 +2025,6 @@
 			(type default)
 		)
 		(uuid "b1667010-b70c-46f3-992e-d76e40cd638c")
-	)
-	(wire
-		(pts
-			(xy 204.47 100.33) (xy 204.47 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95123ef-8b03-4773-99d2-f4f8d8f6d0de")
 	)
 	(wire
 		(pts
@@ -2855,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MACHADA_footprints:2pin_2mm_jst_v_bat_S2B-PH-SM4-TB"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-HV-2.5-SMD_1x02-1MP_P2.50mm_Vertical"
 			(at 241.3 81.28 0)
 			(effects
 				(font
@@ -3098,76 +2809,6 @@
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b/91cef089-9175-4786-91ce-da26d26da4e3"
 					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 204.47 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32cfd030-bb97-48b3-ba7b-5af7ea981f74")
-		(property "Reference" "TH1"
-			(at 207.01 104.4575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 207.01 106.9975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 204.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdccfd58-7635-4b1d-b8c8-7e6869919068")
-		)
-		(pin "2"
-			(uuid "04583f8e-df62-4253-a193-b29922655124")
-		)
-		(instances
-			(project "schematic"
-				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b/91cef089-9175-4786-91ce-da26d26da4e3"
-					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3472,7 +3113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MACHADA_footprints:SOP127P600X175-9N"
+		(property "Footprint" "tp4056:SOIC127P600X175-9N"
 			(at 171.45 73.66 0)
 			(effects
 				(font

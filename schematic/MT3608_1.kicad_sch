@@ -649,7 +649,7 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -661,7 +661,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1308,6 +1308,12 @@
 		(uuid "616a0c8b-9e38-4c0e-9791-96c0c3735395")
 	)
 	(junction
+		(at 106.68 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6291d7c5-404c-4bdc-809f-a3c8243d0126")
+	)
+	(junction
 		(at 172.72 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1389,6 +1395,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 86.36) (xy 106.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160a742b-13ce-4a84-beb2-da4796905fc7")
+	)
+	(wire
+		(pts
 			(xy 224.79 125.73) (xy 238.76 125.73)
 		)
 		(stroke
@@ -1429,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 129.54) (xy 139.7 129.54)
+			(xy 90.17 129.54) (xy 106.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1536,16 +1552,6 @@
 			(type default)
 		)
 		(uuid "6245b2ac-f254-44f4-97c2-7296bbe1cafa")
-	)
-	(wire
-		(pts
-			(xy 106.68 129.54) (xy 106.68 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ddb1a8-9b2c-40c0-a2c2-52940b40cd3e")
 	)
 	(wire
 		(pts
@@ -1746,6 +1752,16 @@
 			(type default)
 		)
 		(uuid "b64617fa-671a-4946-ba9b-2dcc0bf8bc81")
+	)
+	(wire
+		(pts
+			(xy 106.68 129.54) (xy 139.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ed8fcd-b608-4f12-9870-776a23e08a57")
 	)
 	(wire
 		(pts
@@ -2120,7 +2136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS630250RNCR"
+		(property "Footprint" "TPS630250RNCR:TPS630250RNCR"
 			(at 168.91 210.49 0)
 			(effects
 				(font
@@ -2642,7 +2658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MACHADA_footprints:CYA1040-22UH"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRx00050512-B"
 			(at 130.81 110.49 0)
 			(effects
 				(font
@@ -2669,7 +2685,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CYA1040-22UH"
+		(property "MPN" "YSPI0530S-1R0M"
 			(at 130.81 111.76 90)
 			(effects
 				(font
