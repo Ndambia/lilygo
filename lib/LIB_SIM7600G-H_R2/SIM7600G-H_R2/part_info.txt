@@ -1,0 +1,9 @@
+Manufacturer=SIMCOM
+PartNumber=SIM7600G-H R2
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=135
+Version=1.5
+Released=2023-04-19 07:34:18
+Downloaded=2026-08-24 21:31:46
+3D=Y

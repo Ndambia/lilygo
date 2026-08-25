@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SIM7600G_H_R2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SIMCOM", "SIM7600G-H R2" (!) = "", "SIM7600GHR2", "Other", "", "", "", "", "Cellular EDGE, GPRS, GSM, HSPA+, LTE Transceiver Module 850MHz, 900MHz, 1.8GHz, 1.9GHz Antenna Not Included Surface Mount", "https://fcc.report/FCC-ID/2AJYU-8PYA007/4857209.pdf", "3.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AS312'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Senba Optoelectronic", "AS312" (!) = "", "AS312", "Other", "", "", "", "", "Through Hole Sensor and Detector Interfaces RoHS", "https://www.lcsc.com/product-detail/C90465.html", "4.4 mm"
+END_PART
+
+END.

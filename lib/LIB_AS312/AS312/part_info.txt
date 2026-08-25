@@ -1,0 +1,9 @@
+Manufacturer=Senba Optoelectronic
+PartNumber=AS312
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=1.5
+Released=2019-09-27 15:58:01
+Downloaded=2026-08-25 11:23:25
+3D=Y

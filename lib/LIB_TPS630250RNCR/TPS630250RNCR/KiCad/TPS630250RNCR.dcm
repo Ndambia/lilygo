@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS630250RNCR
+D Switching Voltage Regulators 4-A switch single-in ductor buck-boost c A 595-TPS630250RNCT
+K
+F https://www.ti.com/lit/ds/symlink/tps630252.pdf?ts=1777081971757&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+#End Doc Library

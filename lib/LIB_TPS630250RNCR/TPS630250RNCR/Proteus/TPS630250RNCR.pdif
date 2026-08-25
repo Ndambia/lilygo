@@ -1,0 +1,224 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS630250RNCR"
+   (description "Switching Voltage Regulators 4-A switch single-in ductor buck-boost c A 595-TPS630250RNCT")
+   (family "ANA")
+   (package "TPS630250RNCR")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/ds/symlink/tps630252.pdf?ts=1777081971757&ref_url=https%253A%252F%252Fwww.mouser.com%252F")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS630250RNCR")
+   (attribute "Mouser Part Number" "595-TPS630250RNCR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS630250RNCR?qs=G5PZsBocSXu6AhBK6FRPEQ%3D%3D")
+   (attribute "Arrow Part Number" "TPS630250RNCR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tps630250rncr/texas-instruments.html?utm_currency=USD&region=nac")
+   (gate
+    (symbol "TPS630250RNCR")
+    (pin "L2" 1 PS)
+    (pin "PGND" 2 PS)
+    (pin "L1" 3 PS)
+    (pin "VIN_1" 4 PS)
+    (pin "VIN_2" 5 PS)
+    (pin "VIN_3" 6 PS)
+    (pin "VINA" 7 PS)
+    (pin "EN" 8 PS)
+    (pin "GND" 9 PS)
+    (pin "PFM/PWM" 10 PS)
+    (pin "FB" 11 PS)
+    (pin "VOUT_1" 12 PS)
+    (pin "VOUT_2" 13 PS)
+    (pin "VOUT_3" 14 PS)
+   )
+  )
+  (symbol "TPS630250RNCR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TPS630250RNCR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 1.5)
+      (pt 1.25 1.5)
+      (pt 1.25 -1.5)
+      (pt -1.25 -1.5)
+      (pt -1.25 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.45 2.7)
+      (pt 2.45 2.7)
+      (pt 2.45 -2.7)
+      (pt -2.45 -2.7)
+      (pt -2.45 2.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.8 0.5)
+      (arc (pt -1.800 0.500) (pt -1.900 0.450) (pt -1.800 0.550) (start 180.0) (sweep .0))
+      (pt -1.9 0.5)
+      (arc (pt -1.900 0.500) (pt -1.900 0.450) (pt -1.800 0.550) (start 180.0) (sweep 180.0))
+      (pt -1.8 0.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.1 1.5)
+      (pt -1.25 1.5)
+      (pt -1.25 0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.1 -1.5)
+      (pt 1.25 -1.5)
+      (pt 1.25 -0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.1 1.5)
+      (pt 1.25 1.5)
+      (pt 1.25 0.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.25 -0.9)
+      (pt -1.25 -1.5)
+      (pt -1.1 -1.5))))
+   (leg 1 (pt -0.555 0.490) (padstack 1))
+   (leg 2 (pt -0.555 0.000) (padstack 2))
+   (leg 3 (pt -0.555 -0.490) (padstack 3))
+   (leg 4 (pt -0.750 -1.400) (padstack 0))
+   (leg 5 (pt -0.250 -1.400) (padstack 0))
+   (leg 6 (pt 0.250 -1.400) (padstack 0))
+   (leg 7 (pt 0.750 -1.400) (padstack 0))
+   (leg 8 (pt 1.150 -0.500) (padstack 8))
+   (leg 9 (pt 1.150 0.000) (padstack 9))
+   (leg 10 (pt 1.150 0.500) (padstack 10))
+   (leg 11 (pt 0.750 1.400) (padstack 0))
+   (leg 12 (pt 0.250 1.400) (padstack 0))
+   (leg 13 (pt -0.250 1.400) (padstack 0))
+   (leg 14 (pt -0.750 1.400) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.240 0.600 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 1.790 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.240 1.790 0 0 0.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 1.790 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.240 0.600 0 0 0.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 0.240 0.600 0 0 0.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 0.240 0.600 0 0 0.000))
+   )
+   (model "TPS630250RNCR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

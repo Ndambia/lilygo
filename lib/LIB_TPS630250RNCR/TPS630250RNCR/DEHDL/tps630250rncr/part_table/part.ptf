@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS630250RNCR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS630250RNCR" (!) = "", "TPS630250RNCR", "Other", "595-TPS630250RNCR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS630250RNCR?qs=G5PZsBocSXu6AhBK6FRPEQ%3D%3D", "TPS630250RNCR", "https://www.arrow.com/en/products/tps630250rncr/texas-instruments.html?utm_currency=USD&region=nac", "Switching Voltage Regulators 4-A switch single-in ductor buck-boost c A 595-TPS630250RNCT", "https://www.ti.com/lit/ds/symlink/tps630252.pdf?ts=1777081971757&ref_url=https%253A%252F%252Fwww.mouser.com%252F", "1 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.AS312 :1 ;Through Hole Sensor and Detector Interfaces RoHS
+AS312
+*STM IC
+*NGS
+*PLB 1="VDD" 2="REL" 3="VSS"
+*MXP 3
+*DFN AS312
+~!Manufacturer_Name (Senba Optoelectronic)
+~!Manufacturer_Part_Number (AS312)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.lcsc.com/product-detail/C90465.html)
+~!Height (4.4mm)
+~!3D_Model (AS312)
+AS312
+1.1!U 2.1!U 3.1!U 
