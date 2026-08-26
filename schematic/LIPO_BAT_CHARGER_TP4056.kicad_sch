@@ -3322,7 +3322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9beddb6a-3d8d-4f30-981d-dd274dad0dbd")
-		(property "Reference" "TP31"
+		(property "Reference" "BAT+1"
 			(at 264.16 71.628 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 		(instances
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b/91cef089-9175-4786-91ce-da26d26da4e3"
-					(reference "TP31")
+					(reference "BAT+1")
 					(unit 1)
 				)
 			)
@@ -3388,7 +3388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc48cc8-f1e6-4916-808e-0c0af8542e14")
-		(property "Reference" "TP33"
+		(property "Reference" "BAT-1"
 			(at 267.97 81.788 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 		(instances
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b/91cef089-9175-4786-91ce-da26d26da4e3"
-					(reference "TP33")
+					(reference "BAT-1")
 					(unit 1)
 				)
 			)

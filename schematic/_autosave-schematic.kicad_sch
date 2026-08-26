@@ -10315,7 +10315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa1e0158-8a58-4a7b-8263-ba0c3245e1dd")
-		(property "Reference" "Switch-"
+		(property "Reference" "Switch-1"
 			(at 271.78 147.828 0)
 			(effects
 				(font
@@ -10366,7 +10366,7 @@
 		(instances
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
-					(reference "Switch-")
+					(reference "Switch-1")
 					(unit 1)
 				)
 			)
@@ -11237,7 +11237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e27bc78c-29b6-4e05-ab1d-67edffe8bded")
-		(property "Reference" "Switch+"
+		(property "Reference" "Switch+1"
 			(at 256.54 149.098 0)
 			(effects
 				(font
@@ -11288,7 +11288,7 @@
 		(instances
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
-					(reference "Switch+")
+					(reference "Switch+1")
 					(unit 1)
 				)
 			)
