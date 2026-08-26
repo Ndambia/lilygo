@@ -5046,6 +5046,12 @@
 		(uuid "822ca231-569b-472b-bd51-0fcbb33610e2")
 	)
 	(junction
+		(at 168.91 32.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f7d603-d440-4538-a5ed-c9e976cd971d")
+	)
+	(junction
 		(at 46.355 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5068,6 +5074,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b3bd1a9-2e37-4902-b043-94c85f5ee1c4")
+	)
+	(junction
+		(at 169.545 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "290cc45b-80be-46b4-bb95-753d8f40b289")
 	)
 	(junction
 		(at 54.61 36.83)
@@ -5313,6 +5325,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 21.59) (xy 169.545 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9f25f6-5d4e-4c84-9da3-3b405c3baa6e")
+	)
+	(wire
+		(pts
 			(xy 107.95 30.48) (xy 107.95 43.815)
 		)
 		(stroke
@@ -5370,6 +5392,16 @@
 			(type default)
 		)
 		(uuid "17413dfe-f301-445f-a430-b37baf21d944")
+	)
+	(wire
+		(pts
+			(xy 168.91 32.385) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181f6336-2a45-41f5-b98c-f33f6997776e")
 	)
 	(wire
 		(pts
@@ -5670,16 +5702,6 @@
 			(type default)
 		)
 		(uuid "4e386451-5879-4443-b338-ab3aec6e4950")
-	)
-	(wire
-		(pts
-			(xy 168.91 21.59) (xy 169.545 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5a4a7d-bb79-4e61-9966-939c569f76a5")
 	)
 	(wire
 		(pts
@@ -6693,6 +6715,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 34.29) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84f3515-278f-4813-978c-8ca56f99f3d6")
+	)
+	(wire
+		(pts
 			(xy 292.1 95.25) (xy 288.29 95.25)
 		)
 		(stroke
@@ -6720,6 +6752,16 @@
 			(type default)
 		)
 		(uuid "f42a3209-eb1b-481a-ba57-2ba26953d5ee")
+	)
+	(wire
+		(pts
+			(xy 169.545 21.59) (xy 182.88 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f952e9a6-e826-4307-a449-585d70ab92f7")
 	)
 	(wire
 		(pts
@@ -6852,7 +6894,7 @@
 		(uuid "72b906a4-8d89-4fd9-9cbf-a751060f8b40")
 	)
 	(label "+3V3"
-		(at 118.237 74.93 180)
+		(at 116.84 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9418,6 +9460,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "963a5b10-f0fb-4477-9cac-056f01546e45")
+		(property "Reference" "GND1"
+			(at 186.182 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.642 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 181.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb11e298-a46f-4349-b4e7-1a84342045ce")
+		)
+		(instances
+			(project "schematic"
+				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AS312:AS312")
 		(at 247.65 105.41 0)
 		(unit 1)
@@ -9638,7 +9746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "996a31d5-282e-4688-9321-8b6d10ca3246")
-		(property "Reference" "SW2"
+		(property "Reference" "RESET1"
 			(at 27.94 88.9 0)
 			(effects
 				(font
@@ -9689,7 +9797,7 @@
 		(instances
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
-					(reference "SW2")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
@@ -9758,6 +9866,72 @@
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bba7524-cbd8-48a6-8d57-e2cfd645e272")
+		(property "Reference" "+5V1"
+			(at 187.452 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5v"
+			(at 184.912 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0959f056-7a21-4461-8eb7-0354c50568c6")
+		)
+		(instances
+			(project "schematic"
+				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
+					(reference "+5V1")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa1be817-0d81-40c8-81b0-031ce10ff633")
-		(property "Reference" "SW3"
+		(property "Reference" "BOOT1"
 			(at 31.115 127.635 0)
 			(effects
 				(font
@@ -10300,7 +10474,7 @@
 		(instances
 			(project "schematic"
 				(path "/374f5031-bd65-4a4b-92ce-befdd0c9f08b"
-					(reference "SW3")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
