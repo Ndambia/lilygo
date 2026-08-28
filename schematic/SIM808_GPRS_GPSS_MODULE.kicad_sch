@@ -1205,7 +1205,7 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1217,7 +1217,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -2514,7 +2514,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.08 -1.27)
+						(xy -5.08 2.54) (xy -4.445 1.27) (xy -5.715 1.27) (xy -5.08 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2526,7 +2526,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -4.445 1.27) (xy -5.715 1.27) (xy -5.08 2.54)
+						(xy -5.08 2.54) (xy -5.08 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2550,7 +2550,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy 5.08 -2.54)
+						(xy -5.08 -2.54) (xy -5.08 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2562,7 +2562,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -5.08 -1.27)
+						(xy -5.08 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2610,7 +2610,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 -1.27)
+						(xy -2.54 2.54) (xy -1.905 1.27) (xy -3.175 1.27) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2622,7 +2622,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -1.905 1.27) (xy -3.175 1.27) (xy -2.54 2.54)
+						(xy -2.54 2.54) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2644,17 +2644,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -2.54 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -2.54 -1.27)
@@ -2665,6 +2654,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(circle
@@ -2762,6 +2762,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 -2.54) (xy 2.54 -1.27)
@@ -2772,17 +2783,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -7616,7 +7616,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 133.35) (xy 227.33 133.35)
+			(xy 223.52 133.35) (xy 240.03 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8746,7 +8746,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 135.89) (xy 227.33 135.89)
+			(xy 223.52 135.89) (xy 240.03 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8776,7 +8776,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 130.81) (xy 227.33 130.81)
+			(xy 223.52 130.81) (xy 240.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9206,7 +9206,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 125.73) (xy 227.33 125.73)
+			(xy 223.52 125.73) (xy 240.03 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9576,7 +9576,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 123.19) (xy 227.33 123.19)
+			(xy 223.52 123.19) (xy 240.03 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9726,7 +9726,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 128.27) (xy 227.33 128.27)
+			(xy 223.52 128.27) (xy 240.03 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10454,6 +10454,50 @@
 		)
 		(uuid "eda14685-5197-4535-8fdb-b627c850f11a")
 	)
+	(global_label "IO34"
+		(shape input)
+		(at 240.03 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c8b2775-7c20-4e8b-9da5-577b6319de7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO26"
+		(shape input)
+		(at 240.03 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ca7f082-5bd5-47a6-a990-4b91ae8954ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "4.2v"
 		(shape input)
 		(at 78.74 -25.4 90)
@@ -10467,6 +10511,50 @@
 		(uuid "24460b47-7976-48f8-80a0-183a7cb1316f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.74 -32.3766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO33"
+		(shape input)
+		(at 240.03 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39646188-4d58-4889-99e5-7141363e91f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO27"
+		(shape input)
+		(at 240.03 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44228d06-c82c-4909-a7bf-4b065d28bd42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,6 +10604,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO32"
+		(shape input)
+		(at 240.03 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83abfd06-6926-48df-a88c-a9a21d9dcead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO25"
+		(shape input)
+		(at 240.03 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8802ccd6-9ece-4dae-8f12-75adc552d058")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
