@@ -1,0 +1,18 @@
+.RS0108YQ20 :1 ;Voltage Level Translator Bidirectional 1 Circuit 8 Channel 24Mbps 20-TSSOP
+SOP65P640X120-20N
+*STM IC
+*NGS
+*PLB 1="A1" 2="VCCA" 3="A2" 4="A3" 5="A4" 6="A5" 7="A6" 8="A7" 9="A8" 10="OE" 11="GND" 12="B8" 13="B7" 14="B6" 15="B5" 16="B4" 17="B3" 18="B2" 19="VCCB" 20="B1"
+*MXP 20
+*DFN RS0108YQ20
+~!Manufacturer_Name (RUNIC)
+~!Manufacturer_Part_Number (RS0108YQ20)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://4donline.ihs.com/images/VipMasterIC/IC/JRUN/JRUN-S-A0018370951/JRUN-S-A0018371105-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0)
+~!Height (1.2mm)
+~!3D_Model (RS0108YQ20)
+RS0108YQ20
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

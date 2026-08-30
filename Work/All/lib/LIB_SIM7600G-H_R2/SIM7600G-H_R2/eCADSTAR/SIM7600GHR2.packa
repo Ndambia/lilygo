@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SIM7600G-H_R2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-19-07:34:18)
+    (mountForm default
+        (footprintRef "SIM7600GHR2")
+        (spec "System")
+    )
+)

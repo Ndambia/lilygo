@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS630250RNCR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=14
+Version=2.3
+Released=2018-11-23 02:03:00
+Downloaded=2026-08-24 21:44:21
+3D=Y

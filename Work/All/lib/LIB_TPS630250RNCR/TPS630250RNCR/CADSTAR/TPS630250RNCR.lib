@@ -1,0 +1,18 @@
+.TPS630250RNCR :1 ;Switching Voltage Regulators 4-A switch single-in ductor buck-boost c A 595-TPS630250RNCT
+TPS630250RNCR
+*STM IC
+*NGS
+*PLB 1="L2" 2="PGND" 3="L1" 4="VIN_1" 5="VIN_2" 6="VIN_3" 7="VINA" 8="EN" 9="GND" 10="PFM/PWM" 11="FB" 12="VOUT_1" 13="VOUT_2" 14="VOUT_3"
+*MXP 14
+*DFN TPS630250RNCR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS630250RNCR)
+~!Mouser Part Number (595-TPS630250RNCR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS630250RNCR?qs=G5PZsBocSXu6AhBK6FRPEQ%3D%3D)
+~!Arrow Part Number (TPS630250RNCR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps630250rncr/texas-instruments.html?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tps630252.pdf?ts=1777081971757&ref_url=https%253A%252F%252Fwww.mouser.com%252F)
+~!Height (1mm)
+~!3D_Model (TPS630250RNCR)
+TPS630250RNCR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

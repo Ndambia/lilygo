@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AXP2101'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Allwinner Technology", "AXP2101" (!) = "", "QFN40P500X500X80-41N-D", "Quad Flat No-Lead", "", "", "", "", "OEM/CM QUOTES ONLY | NO BROKERS", "https://cdn-3a4dd4ab.ozdisan.com/ETicaret_Dosya/624955_173892.pdf", "0.8 mm"
+END_PART
+
+END.

@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AS312"
+   (description "Through Hole Sensor and Detector Interfaces RoHS")
+   (family "ANA")
+   (package "AS312")
+   (attribute "Datasheet Link" "https://www.lcsc.com/product-detail/C90465.html")
+   (attribute "Geometry.Height" "4.4mm")
+   (attribute "Manufacturer_Name" "Senba Optoelectronic")
+   (attribute "Manufacturer_Part_Number" "AS312")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "AS312")
+    (pin "VDD" 1 PS)
+    (pin "REL" 2 PS)
+    (pin "VSS" 3 PS)
+   )
+  )
+  (symbol "AS312"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AS312"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 7.64 5.1)
+      (pt -3.6 5.1)
+      (pt -3.6 -5.1)
+      (pt 7.64 -5.1)
+      (pt 7.64 5.1))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 6.64 0)
+      (arc (pt 6.640 0.000) (pt -1.560 -4.100) (pt 6.640 4.100) (start 180.0) (sweep .0))
+      (pt -1.56 0)
+      (arc (pt -1.560 0.000) (pt -1.560 -4.100) (pt 6.640 4.100) (start 180.0) (sweep -180.0))
+      (pt 6.64 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 6.64 0)
+      (arc (pt 6.640 0.000) (pt -1.560 -4.100) (pt 6.640 4.100) (start 180.0) (sweep .0))
+      (pt -1.56 0)
+      (arc (pt -1.560 0.000) (pt -1.560 -4.100) (pt 6.640 4.100) (start 180.0) (sweep -180.0))
+      (pt 6.64 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.5 0)
+      (arc (pt -2.500 0.000) (pt -2.600 -0.050) (pt -2.500 0.050) (start 180.0) (sweep .0))
+      (pt -2.6 0)
+      (arc (pt -2.600 0.000) (pt -2.600 -0.050) (pt -2.500 0.050) (start 180.0) (sweep -180.0))
+      (pt -2.5 0)
+      (arc (pt -2.500 0.000) (pt -2.600 -0.050) (pt -2.500 0.050) (start 180.0) (sweep .0))
+      (pt -2.6 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 -2.540) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.65)
+    (plated true)
+    (pad (layer TCOP) (round 1.192))
+    (pad (layer INNER) (round 1.192))
+    (pad (layer BCOP) (round 1.192))
+   )
+   (model "AS312.stp"
+    (euler -90 180 0)
+    (offset 2.5199999809265137 0.009999999776482582 0.20000000298023224)
+   )
+  )
+ )
+)
